@@ -15,3 +15,10 @@ docker rm apache
 docker rmi httpd
 
 
+
+zadanie 2
+
+docker build -t myapp .
+
+docker run -d --name zad\_2 -p 5000:5000 myapp
+
